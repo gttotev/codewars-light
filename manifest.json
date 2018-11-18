@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "The missing light theme for Codewars",
-  "homepage_url": "http://localhost",
+  "homepage_url": "https://github.com/gttotev/codewars-light",
   "icons": {
     "16": "res/icon16.png",
     "48": "res/icon48.png",

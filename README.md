@@ -1,7 +1,9 @@
 # Codewars Light Theme
 Frustrated by the debilitating eyesore of dark-mode-only websites?
+
 Well, you can certainly take [Codewars](https://www.codewars.com) off your list.
-*LET THERE BE LIGHT!*
+
+**LET THERE BE LIGHT!**
 
 -------
 
