@@ -1,0 +1,235 @@
+/******* dashboard ********/
+.dark-theme {
+    background-color: #f1f1f1 !important;
+    color: black !important;
+}
+
+.dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+    color: black !important;
+}
+
+/* top left block with "your next challenge" */
+.dark-theme .is-darkened {
+    background-color: white !important;
+}
+
+.dropdown:hover {
+    background-color: #bbbaba !important;
+}
+
+/* under-under top right block with "Earn extra honor and gain..." */
+.dark-theme .panel {
+    color: black !important;
+}
+
+.btn.is-dark {
+    color: black !important;
+    background-color: white !important;
+}
+
+.btn.is-dark:hover {
+    color: #888 !important;
+    background-color: #e3e3e3 !important;
+}
+
+/* under top right block with "Allies..." */
+.is-notice-text {
+    color: #0534bf !important;
+}
+
+/* other sections */
+.ide-editors {
+    /*filter: invert(100%);*/
+}
+
+#description, #sidenav {
+    background-color: white;
+    color: black;
+}
+
+.lang-python {
+    background-color: white;
+    color: black;
+}
+
+pre {
+    background-color: white;
+}
+
+pre .hljs-string {
+    color: green;
+}
+
+pre .hljs-keyword {
+    color: #9e20bf;
+}
+
+pre .hljs-function {
+    color: #2c2cff;
+}
+
+pre .hljs-comment {
+    color: blue;
+}
+
+.five, .coloumns {
+    background-color: white;
+    color: black;
+}
+
+span.mrn, span.has-tip, a.has-tip {
+    color: black;
+}
+
+/* top right block with kata description */
+.personal-trainer .trainer-info {
+    background-color: #d9d9d9;
+    color: black;
+    /*filter: invert(100%);*/
+}
+
+.is-white-text {
+    color: black !important;
+}
+
+.markdown {
+    color: black;
+    background-color: #ddd;
+}
+
+/* bottom comment section */
+.comment-markdown {
+    color: black !important;
+}
+
+.dark-theme .is-gray-text {
+    color: #443b3b !important;
+}
+
+a {
+    color: #000000 !important;
+}
+
+a:hover {
+    color: blue !important;
+}
+
+pre code {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* inside comment: replying */
+.markdown-editor.is-compact .cm-s-cw-dark {
+    background-color: #cecaca !important;
+    color: black !important;
+}
+
+/* left side-panel */
+#sidenav li a {
+    color: black !important;
+}
+
+#sidenav li a:hover {
+    color: #868686 !important;
+}
+
+/* top right hover block */
+#main_header {
+    background-color: white !important;
+}
+
+header.main .menu .menu-body {
+    background-color: #c3c2c2 !important;
+}
+
+#main_header a {
+    color: black !important;
+}
+
+#main_header a:hover {
+    color: #6c6c6c !important;
+}
+
+/****** login *******/
+.is-red-text {
+    color: white !important;
+}
+
+/* CUSTOM */
+dd.is-active {
+    background-color: #b9b9b9;
+}
+
+section.user-profile {
+    background-color: white;
+}
+
+.info-row span {
+    color: black;
+}
+
+.items-list .list-item.kata .language-summary {
+    color: black;
+}
+
+div.item-title div.tag {
+    background-color: #2d2d2d;
+}
+
+.dark-theme .is-darkened div.icon-container {
+    background-color: #dedede !important;
+}
+
+pre code.mbx {
+    background-color: #f9f9f9 !important;
+}
+
+.markdown, div.solutions, div.kata {
+    background-color: #eaeaea;
+}
+
+select, input.string {
+    color: black;
+}
+
+select:hover, input.string:hover, input.string:active, input.string:focus {
+    background-color: #ececec;
+}
+
+label, label span.note {
+    color: black;
+    background-color: #e6e6e6;
+}
+
+div.alert-box.dark {
+    background-color: white;
+}
+
+.cm-s-cw-dark.CodeMirror, .CodeMirror-gutter {
+    background-color: #ffffff;
+}
+
+.cm-s-cw-dark span, .cm-s-cw-dark span.cm-variable, .cm-s-cw-dark span.cm-operator {
+    color: black;
+}
+
+.cm-s-cw-dark span.cm-property, .cm-s-cw-dark span.cm-attribute {
+    color: #3c3cff;
+}
+
+.cm-s-cw-dark span.cm-string {
+    color: green;
+}
+
+.cm-s-cw-dark span.cm-keyword {
+    color: #9e20bf;
+}
+
+.cm-s-cw-dark span.cm-def, .cm-s-cw-dark span.cm-atom, .cm-s-cw-dark span.cm-number {
+    color: #ff7b20;
+}
+
+.cm-s-cw-dark span.cm-comment {
+    color: blue;
+}

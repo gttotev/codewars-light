@@ -1,0 +1,27 @@
+{
+  "name": "Codewars Light Theme",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "The missing light theme for Codewars",
+  "homepage_url": "http://localhost",
+  "icons": {
+    "16": "res/icon16.png",
+    "48": "res/icon48.png",
+    "128": "res/icon128.png"
+  },
+  "permissions": [
+    "contentSettings",
+    "https://www.codewars.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.codewars.com/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": ["src/light.css"]
+}
